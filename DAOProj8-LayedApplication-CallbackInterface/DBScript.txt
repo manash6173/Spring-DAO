@@ -1,0 +1,20 @@
+
+SQL> select * from cricket_player;
+
+  PLAYERID PNAME           TEAM          JERSYNO ROLE
+---------- --------------- ---------- ---------- ----------
+      1001 Dhoni           India               7 WK-Batsman
+      1002 Kholi           India              18 Batsman
+      1003 ABD             SA                 17 Batsman
+      1004 Rohit           India              10 Batsman
+      1005 Bhuvi           India             228 Batsman
+      
+      
+SQL> desc cricket_player;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PLAYERID                                  NOT NULL NUMBER(5)
+ PNAME                                              VARCHAR2(15)
+ TEAM                                               VARCHAR2(10)
+ JERSYNO                                            NUMBER(10)
+ ROLE                                               VARCHAR2(10)
